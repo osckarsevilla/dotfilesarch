@@ -132,7 +132,11 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-### ALIASES ###
+### BitWarden CLI ###
+#
+#
+export BW_SESSION="Y1t0zGErIbX5L3FF7fplh+YgyBUXhCMASUVWkLTRR5dTLTg4A8JY4I9cNw7RGso+7J9eLuZfm7bMLaDL+2GZ1Q=="
+
 
 #### Mios
 #
@@ -144,8 +148,8 @@ alias ipp='curl -s https://ipinfo.io/ip'
 alias ram='cd ~ && ./ram.sh'
 alias top='btop'
 alias vim='nvim'
-alias edit= 'vim .zshrc'
-alias save='source .zshrc'
+alias edit='vim ~/.zshrc'
+alias save='source ~/.zshrc'
 alias escoba='ssh -oHostKeyAlgorithms=+ssh-rsa root@192.168.3.162'
 alias fregona='ssh -oHostKeyAlgorithms=+ssh-rsa root@192.168.3.163'
 alias sr='sudo reboot now'
